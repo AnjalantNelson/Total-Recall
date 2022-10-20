@@ -1,14 +1,25 @@
 ## Q + A
 1. How do we assign a value to a variable?
+-let
+-const
+-var (don't use)
+
 2. How do we change the value of a variable?
+car = 'string'
+The variable = 'string', boolean, or number
+
 3. How do we assign an existing variable to a new variable?
+
 4. Remind me, what are declare, assign, and define?
+Declare - To define or specify a variable.
 
 ### Research 
 
 5. What is pseudocoding and why should you do it?
+pseudocoding is the action of expalining or defining program process within a human reading form. I use it to better understand my code
 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+30% of time thinking, 70% programming
 
 ## Strings
 
@@ -21,7 +32,7 @@
 - Change the value of secondVariableto any string.
 
 What is the value of firstVariable?
-
+firstVariable is equal to secondVariable which is 'Good Morning'
 - Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string `"Hello, my name is "` and the variable yourName. 
 
 ex output: Hello, my name is Jean Valjean
