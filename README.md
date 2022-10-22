@@ -16,9 +16,11 @@ Declare - To define or specify a variable.
 ### Research 
 
 5. What is pseudocoding and why should you do it?
+
 pseudocoding is the action of expalining or defining program process within a human reading form. I use it to better understand my code
 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+
 30% of time thinking, 70% programming
 
 ## Strings
@@ -29,10 +31,12 @@ pseudocoding is the action of expalining or defining program process within a hu
 - Assign it the value of the string "Hello World"
 - Change the value of this variable to some number
 - Store the value of firstVariablein a new variable called secondVariable
-- Change the value of secondVariableto any string.
+- Change the value of secondVariable to any string.
 
 What is the value of firstVariable?
+
 firstVariable is equal to secondVariable which is 'Good Morning'
+
 - Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string `"Hello, my name is "` and the variable yourName. 
 
 ex output: Hello, my name is Jean Valjean
@@ -141,10 +145,16 @@ Check your work! Your `bank_account` should have $10,100 in it.
 
 ### A. Talk about it:
 What are the things in an array called?
+
+// things in arrays are called elements.
+
 Do Arrays guarantee those things will be in order?
+
+// yes, non-alphabetical
+
 What real-life thing could you model with an array?
 
-
+// anything that needs to be listed 
 
 ### B. Easy Does It
 Create an array that contains three quotes and store it in a variable called quotes
@@ -157,17 +167,32 @@ Given the following array `const randomThings = [1, 10, "Hello", true]`
 
 - How do you access the 1st element in the array?
 
+- randomThings[0]
+
 - Change the value of `"Hello"` to `"World"`
+
+-randomThings[2] = 'World'
 
 - Check the value of the array to make sure it updated the array using `console.log()`
 
+-console.log(randomThings)
 
 ### D. Change values
 Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 
+-ourClass[2]
+
 What would you write to access the 3rd element of the array?
+
+-ourClass[3]
+
 Change the value of "Github" to "Octocat"
+ourClass[4] = "Octocat"
+
 Add a new element, "Cloud City" to the array
+
+ourClass.push('Cloud City')
+ourClass.unshift('Cloud City')
 
 
 
