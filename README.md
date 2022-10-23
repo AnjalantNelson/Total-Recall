@@ -431,7 +431,7 @@ Console.log just the "Merino jodhpurs" from the `purchasedarray`.
 
 Remember that you can add an object to an existing object in the same way that you can add any new property/value pair.
 
-If we want to give our user a friendwith a nameand age, we could write:
+If we want to give our user a friend with a name and age, we could write:
 
 ```
 user.friend = {

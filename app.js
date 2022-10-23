@@ -305,11 +305,53 @@
     let userOne = {
          name: 'jason',
          email: 'jason@-0.com',
-        purchased: [],
+         age: 30,
+        purchased: []
+        
     }
+userOne.age = ++userOne.age
+    userOne.email = 'jason@newEmail.com';
     console.log(userOne)
 
-   let newEmail = {
-     newEmail: 'jason@newMail.com',
+userOne.location = ('Denver,CO')
+
+userOne.purchased.push('carbohydrates', 'peace of mind', 'Merino jodhpurs')
+
+userOne.friend = {
+  name: "Batman",
+  age: 85,
+  location: 'Denver, CO',
+  purchased: []
+}
+
+console.log(userOne.friend.name)
+console.log(userOne.friend.location)
+
+userOne.friend.age = 55;
+
+userOne.friend.purchased.push('the one ring')
+userOne.friend.purchased.push('A latte')
+
+console.log(userOne.friend.purchased[1])
+
+for(let i = 0; i < userOne.purchased.length; i++) {
+console.log(userOne.purchased[i])
+}
+
+for(let i = 0; i < userOne.friend.purchased.length; i++) {
+  console.log(userOne.friend.purchased[i])
+}
+
+   function updateUser() {
+    userOne.age = ++userOne.age;
+    console.log(userOne.name.toUpperCase())
    }
    
+updateUser()
+
+function oldAndLoud(person){
+person.age = ++person.age;
+    console.log(person.name.toUpperCase())
+   }
+
+   oldAndLoud(userOne)
